@@ -1,7 +1,7 @@
 WhitelistManager = require 'meshblu-core-manager-whitelist'
 http             = require 'http'
 
-class CheckBroadcastReceivedWhitelist
+class CheckWhitelistBroadcastReceived
   constructor: ({datastore, @whitelistManager, uuidAliasResolver}) ->
     @whitelistManager ?= new WhitelistManager {datastore, uuidAliasResolver}
 
@@ -22,4 +22,4 @@ class CheckBroadcastReceivedWhitelist
         code: code
         status: http.STATUS_CODES[code]
 
-module.exports = CheckBroadcastReceivedWhitelist
+module.exports = CheckWhitelistBroadcastReceived

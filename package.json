@@ -1,15 +1,15 @@
 {
-  "name": "meshblu-core-task-check-broadcast-received-whitelist",
-  "version": "1.0.1",
-  "description": "Meshblu core task meshblu-core-task-check-broadcast-received-whitelist",
+  "name": "meshblu-core-task-check-whitelist-broadcast-received",
+  "version": "1.1.0",
+  "description": "Meshblu core task meshblu-core-task-check-whitelist-broadcast-received",
   "keywords": [
     "meshblu",
     "core",
     "iot",
     "task"
   ],
-  "homepage": "https://github.com/octoblu/meshblu-core-task-check-broadcast-received-whitelist",
-  "bugs": "https://github.com/octoblu/meshblu-core-task-check-broadcast-received-whitelist/issues",
+  "homepage": "https://github.com/octoblu/meshblu-core-task-check-whitelist-broadcast-received",
+  "bugs": "https://github.com/octoblu/meshblu-core-task-check-whitelist-broadcast-received/issues",
   "author": {
     "name": "Octoblu",
     "url": "https://github.com/octoblu"
@@ -17,7 +17,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/octoblu/meshblu-core-task-check-broadcast-received-whitelist.git"
+    "url": "https://github.com/octoblu/meshblu-core-task-check-whitelist-broadcast-received.git"
   },
   "scripts": {
     "test": "mocha"

@@ -1,12 +1,12 @@
 http = require 'http'
-CheckBroadcastReceivedWhitelist = require '../'
+CheckWhitelistBroadcastReceived = require '../'
 
-describe 'CheckBroadcastReceivedWhitelist', ->
+describe 'CheckWhitelistBroadcastReceived', ->
   beforeEach ->
     @whitelistManager =
       checkBroadcastReceived: sinon.stub()
 
-    @sut = new CheckBroadcastReceivedWhitelist
+    @sut = new CheckWhitelistBroadcastReceived
       whitelistManager: @whitelistManager
 
   describe '->do', ->
